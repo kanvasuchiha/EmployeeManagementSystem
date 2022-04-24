@@ -66,3 +66,15 @@ Components List for the App - https://drive.google.com/file/d/1yO4SZxCxfx_oakMBs
    We gonna make use of HttpClient module to make calls to REST API.
 7) Add HttpClientModule in 'imports' "app.module.ts" file. Read about the changes to be made about CORS policy in springboot app
    @CrossOrigin(origins = "http://localhost:4200")
+8) Enabling routing in the CLI while angular app creation does two things:
+   i) add : 
+      <base href="/">  to index.html
+   ii) generate a new file by the name of app-routing.module.ts
+   iii) add 'AppRoutingModule' to imports in app.module.ts
+9) "pathMatch: 'full'" is very important thing in Angular routing an empty path to avoid an endless loop.
+
+  --------------------------------------------------------------------------------
+  
+  
+  -----------------------------Add Employee REST API------------------------------
+  
