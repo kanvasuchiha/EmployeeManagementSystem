@@ -77,4 +77,16 @@ Components List for the App - https://drive.google.com/file/d/1yO4SZxCxfx_oakMBs
   
   
   -----------------------------Add Employee REST API------------------------------
+
+  https://drive.google.com/file/d/1ZApboYCBi25NK8g7djZutNQBmeGoANwR/view?usp=sharing  
   
+  1) Angular provides us with this great feature of two way binding.
+  2) > ng g c create-employee
+      CREATE src/app/create-employee/create-employee.component.html (30 bytes)
+      CREATE src/app/create-employee/create-employee.component.spec.ts (683 bytes)
+      CREATE src/app/create-employee/create-employee.component.ts (310 bytes)     
+      CREATE src/app/create-employee/create-employee.component.css (0 bytes)      
+      UPDATE src/app/app.module.ts (695 bytes)
+  3) We use NgModel directive to achieve two way binding in our angular application, for any errors
+     https://stackoverflow.com/questions/38892771/cant-bind-to-ngmodel-since-it-isnt-a-known-property-of-input
+  4) Create a method in employee.service.ts that will make the REST API call and save our employee to the MySql database.
