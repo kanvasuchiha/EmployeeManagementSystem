@@ -46,22 +46,22 @@ Components List for the App - https://drive.google.com/file/d/1yO4SZxCxfx_oakMBs
    Or else we can add "@import "~bootstrap/dist/css/bootstrap.min.css" under global styles.css
    Or else we can add the bootstrap 4 cdn link directly in the index.html
 3) {{title}}  is known as 'Interpolation'.
-4) 'ng g class employee' g - generate,  generates an employee.ts and employee.spec.ts inside "app" folder.
-   CREATE src/app/employee.spec.ts (162 bytes)
-   CREATE src/app/employee.ts (26 bytes)
-5) 'ng g c employee-list' c - component, generates
-   CREATE src/app/employee-list/employee-list.component.html (28 bytes)
-   CREATE src/app/employee-list/employee-list.component.spec.ts (669 bytes)
-   CREATE src/app/employee-list/employee-list.component.ts (302 bytes)
-   CREATE src/app/employee-list/employee-list.component.css (0 bytes)
-   UPDATE src/app/app.module.ts (501 bytes)
+4) >'ng g class employee' g - generate,  generates an employee.ts and employee.spec.ts inside "app" folder.<br />
+   CREATE src/app/employee.spec.ts (162 bytes)<br />
+   CREATE src/app/employee.ts (26 bytes)<br />
+5) >'ng g c employee-list' c - component, generates
+   CREATE src/app/employee-list/employee-list.component.html (28 bytes)<br />
+   CREATE src/app/employee-list/employee-list.component.spec.ts (669 bytes)<br />
+   CREATE src/app/employee-list/employee-list.component.ts (302 bytes)<br />
+   CREATE src/app/employee-list/employee-list.component.css (0 bytes)<br />
+   UPDATE src/app/app.module.ts (501 bytes)<br />
    Now the employee-list component belongs to "app module"
    A component is a TS class with @Component decorator
 6) About Services:
    https://drive.google.com/file/d/1_6w_cT4dVdSdrkoS4_fooZROqy44hKKM/view?usp=sharing
-   > ng g s employee-service
-   CREATE src/app/employee-service.service.spec.ts (403 bytes)
-   CREATE src/app/employee-service.service.ts (144 bytes)
+   > ng g s employee-service<br />
+   CREATE src/app/employee-service.service.spec.ts (403 bytes)<br />
+   CREATE src/app/employee-service.service.ts (144 bytes)<br />
    Service is a class annotated with @Injectable decorator and this class can be added to Providers in components.
    We gonna make use of HttpClient module to make calls to REST API.
 7) Add HttpClientModule in 'imports' "app.module.ts" file. Read about the changes to be made about CORS policy in springboot app
@@ -81,12 +81,12 @@ Components List for the App - https://drive.google.com/file/d/1yO4SZxCxfx_oakMBs
   https://drive.google.com/file/d/1ZApboYCBi25NK8g7djZutNQBmeGoANwR/view?usp=sharing  
   
   1) Angular provides us with this great feature of two way binding.
-  2) > ng g c create-employee
-      CREATE src/app/create-employee/create-employee.component.html (30 bytes)
-      CREATE src/app/create-employee/create-employee.component.spec.ts (683 bytes)
-      CREATE src/app/create-employee/create-employee.component.ts (310 bytes)     
-      CREATE src/app/create-employee/create-employee.component.css (0 bytes)      
-      UPDATE src/app/app.module.ts (695 bytes)
+  2) > ng g c create-employee<br />
+      CREATE src/app/create-employee/create-employee.component.html (30 bytes)<br />
+      CREATE src/app/create-employee/create-employee.component.spec.ts (683 bytes)<br />
+      CREATE src/app/create-employee/create-employee.component.ts (310 bytes)     <br />
+      CREATE src/app/create-employee/create-employee.component.css (0 bytes)      <br />
+      UPDATE src/app/app.module.ts (695 bytes)<br />
   3) We use NgModel directive to achieve two way binding in our angular application, for any errors
      https://stackoverflow.com/questions/38892771/cant-bind-to-ngmodel-since-it-isnt-a-known-property-of-input
   4) Create a method in employee.service.ts that will make the REST API call and save our employee to the MySql database.
@@ -100,12 +100,12 @@ Components List for the App - https://drive.google.com/file/d/1yO4SZxCxfx_oakMBs
   
   
   <h2>Update Employee Component</h2>
-  1) > ng g c update-employee
-      CREATE src/app/update-employee/update-employee.component.html (30 bytes)
-      CREATE src/app/update-employee/update-employee.component.spec.ts (683 bytes)
-      CREATE src/app/update-employee/update-employee.component.ts (310 bytes)     
-      CREATE src/app/update-employee/update-employee.component.css (0 bytes)      
-      UPDATE src/app/app.module.ts (875 bytes)
+  1) > ng g c update-employee<br />
+      CREATE src/app/update-employee/update-employee.component.html (30 bytes)<br />
+      CREATE src/app/update-employee/update-employee.component.spec.ts (683 bytes)<br />
+      CREATE src/app/update-employee/update-employee.component.ts (310 bytes)   <br />  
+      CREATE src/app/update-employee/update-employee.component.css (0 bytes)      <br />
+      UPDATE src/app/app.module.ts (875 bytes)<br />
   
   --------------------------------------------------------------------------------
   
@@ -123,10 +123,10 @@ Components List for the App - https://drive.google.com/file/d/1yO4SZxCxfx_oakMBs
   <h2>View Employee Component</h2>
   
   1) > ng g c employee-details
-      CREATE src/app/employee-details/employee-details.component.html (31 bytes)
-      CREATE src/app/employee-details/employee-details.component.spec.ts (690 bytes)
-      CREATE src/app/employee-details/employee-details.component.ts (314 bytes)     
-      CREATE src/app/employee-details/employee-details.component.css (0 bytes)      
-      UPDATE src/app/app.module.ts (995 bytes)
+      CREATE src/app/employee-details/employee-details.component.html (31 bytes)<br />
+      CREATE src/app/employee-details/employee-details.component.spec.ts (690 bytes)<br />
+      CREATE src/app/employee-details/employee-details.component.ts (314 bytes)  <br />   
+      CREATE src/app/employee-details/employee-details.component.css (0 bytes)  <br />    
+      UPDATE src/app/app.module.ts (995 bytes)<br />
   
    --------------------------------------------------------------------------------
