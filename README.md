@@ -9,7 +9,7 @@ This is an effort to develop a full-stack application with SpringBoot being used
 --------------------------------------------------------------------------
 
 
-<h1>About Angular Application</h1>
+<h1>About Angular</h1>
 
 1) main.ts is the main entry point of our angular app
 2) any dependencies added via "npm install" command are installed in node_modules folder
@@ -34,7 +34,7 @@ This is an effort to develop a full-stack application with SpringBoot being used
 --------------------------------------------------------------------------------
   
   
-<h1>About Angular Frontend</h1>
+<h1>About Frontend for our application</h1>
 Components List for the App - https://drive.google.com/file/d/1yO4SZxCxfx_oakMBsQoqQhD5epLwpOPF/view?usp=sharing
 
 1) EmployeeService - Holds all the HTTP REST client code
