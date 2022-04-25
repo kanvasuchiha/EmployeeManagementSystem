@@ -7,7 +7,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 //Typical standard way of referring to the release version 1 of any application
 @RestController
@@ -68,6 +70,17 @@ public class EmployeeController {
         employee.setEmailId(employeeDetails.getEmailId());
         employeeRepository.save(employee);
         return ResponseEntity.ok(employee);
+    }
+
+    //Delete Employee REST API
+    @DeleteMapping("/employees/{id}")
+    public ResponseEntity<Map<String, Boolean>> deleteEmployee(@PathVariable Long id){
+        Employee employee = employeeRepository.findById(id)
+                .orElseThrow( ()-> new ResourceNotFoundException("Employee does not exist with Id: " + id));
+        employeeRepository.delete(employee);
+        Map<String, Boolean> response = new HashMap<String, Boolean>();
+        response.put("deleted", Boolean.TRUE);
+        return ResponseEntity.ok(response);
     }
 
 }
