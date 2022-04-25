@@ -3,13 +3,13 @@ EMS using Angular and SpringBoot
 
 This is an effort to develop a full-stack application with SpringBoot being used to develop backend to expose RESTful APIs to be consumed by an Angular based Frontend.
 
--------------------------About SpringBoot Application---------------------
+<h1>About SpringBoot Application
 
 
 --------------------------------------------------------------------------
 
 
--------------------------- About Angular ---------------------------------
+<h1>About Angular Application
 
 1) main.ts is the main entry point of our angular app
 2) any dependencies added via "npm install" command are installed in node_modules folder
@@ -34,7 +34,7 @@ This is an effort to develop a full-stack application with SpringBoot being used
 --------------------------------------------------------------------------------
   
   
-----------------------------About Angular Frontend------------------------------
+<h1>About Angular Frontend
 Components List for the App - https://drive.google.com/file/d/1yO4SZxCxfx_oakMBsQoqQhD5epLwpOPF/view?usp=sharing
 
 1) EmployeeService - Holds all the HTTP REST client code
@@ -45,7 +45,7 @@ Components List for the App - https://drive.google.com/file/d/1yO4SZxCxfx_oakMBs
    package.json and also an entry about the node_modules folder under "styles" in "angular.json".
    Or else we can add "@import "~bootstrap/dist/css/bootstrap.min.css" under global styles.css
    Or else we can add the bootstrap 4 cdn link directly in the index.html
-3) <h1> {{title}}  is known as 'Interpolation'.
+3) {{title}}  is known as 'Interpolation'.
 4) 'ng g class employee' g - generate,  generates an employee.ts and employee.spec.ts inside "app" folder.
    CREATE src/app/employee.spec.ts (162 bytes)
    CREATE src/app/employee.ts (26 bytes)
@@ -76,7 +76,7 @@ Components List for the App - https://drive.google.com/file/d/1yO4SZxCxfx_oakMBs
   --------------------------------------------------------------------------------
   
   
-  -----------------------------Add Employee REST API------------------------------
+  <h1>Add Employee REST API
 
   https://drive.google.com/file/d/1ZApboYCBi25NK8g7djZutNQBmeGoANwR/view?usp=sharing  
   
@@ -94,12 +94,12 @@ Components List for the App - https://drive.google.com/file/d/1yO4SZxCxfx_oakMBs
   --------------------------------------------------------------------------------
   
   
-  -----------------------------Update Employee REST API---------------------------
+  <h1>Update Employee REST API
   
   --------------------------------------------------------------------------------
   
   
-  -----------------------------Update Employee Component--------------------------
+  <h1>Update Employee Component
   1) > ng g c update-employee
       CREATE src/app/update-employee/update-employee.component.html (30 bytes)
       CREATE src/app/update-employee/update-employee.component.spec.ts (683 bytes)
@@ -110,17 +110,17 @@ Components List for the App - https://drive.google.com/file/d/1yO4SZxCxfx_oakMBs
   --------------------------------------------------------------------------------
   
   
-  -----------------------------Delete Employee REST API---------------------------
+  <h1>Delete Employee REST API
   
   --------------------------------------------------------------------------------
   
   
-  -----------------------------Delete Employee Component--------------------------
+  <h1>Delete Employee Component
   
   --------------------------------------------------------------------------------
   
   
-  -----------------------------View Employee Component----------------------------
+  <h1>View Employee Component
   
   1) > ng g c employee-details
       CREATE src/app/employee-details/employee-details.component.html (31 bytes)
