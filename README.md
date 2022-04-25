@@ -9,7 +9,7 @@ This is an effort to develop a full-stack application with SpringBoot being used
 --------------------------------------------------------------------------
 
 
-<h1>About Angular Application</h>
+<h1>About Angular Application</h1>
 
 1) main.ts is the main entry point of our angular app
 2) any dependencies added via "npm install" command are installed in node_modules folder
@@ -34,7 +34,7 @@ This is an effort to develop a full-stack application with SpringBoot being used
 --------------------------------------------------------------------------------
   
   
-<h1>About Angular Frontend</h>
+<h1>About Angular Frontend</h1>
 Components List for the App - https://drive.google.com/file/d/1yO4SZxCxfx_oakMBsQoqQhD5epLwpOPF/view?usp=sharing
 
 1) EmployeeService - Holds all the HTTP REST client code
@@ -76,7 +76,7 @@ Components List for the App - https://drive.google.com/file/d/1yO4SZxCxfx_oakMBs
   --------------------------------------------------------------------------------
   
   
-  <h1>Add Employee REST API</h>
+  <h1>Add Employee REST API</h1>
 
   https://drive.google.com/file/d/1ZApboYCBi25NK8g7djZutNQBmeGoANwR/view?usp=sharing  
   
@@ -94,12 +94,12 @@ Components List for the App - https://drive.google.com/file/d/1yO4SZxCxfx_oakMBs
   --------------------------------------------------------------------------------
   
   
-  <h1>Update Employee REST API</h>
+  <h1>Update Employee REST API</h1>
   
   --------------------------------------------------------------------------------
   
   
-  <h1>Update Employee Component</h>
+  <h1>Update Employee Component</h1>
   1) > ng g c update-employee
       CREATE src/app/update-employee/update-employee.component.html (30 bytes)
       CREATE src/app/update-employee/update-employee.component.spec.ts (683 bytes)
@@ -110,17 +110,17 @@ Components List for the App - https://drive.google.com/file/d/1yO4SZxCxfx_oakMBs
   --------------------------------------------------------------------------------
   
   
-  <h1>Delete Employee REST API</h>
+  <h1>Delete Employee REST API</h1>
   
   --------------------------------------------------------------------------------
   
   
-  <h1>Delete Employee Component</h>
+  <h1>Delete Employee Component</h1>
   
   --------------------------------------------------------------------------------
   
   
-  <h1>View Employee Component</h>
+  <h1>View Employee Component</h1>
   
   1) > ng g c employee-details
       CREATE src/app/employee-details/employee-details.component.html (31 bytes)
