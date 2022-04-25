@@ -115,4 +115,18 @@ Components List for the App - https://drive.google.com/file/d/1yO4SZxCxfx_oakMBs
   --------------------------------------------------------------------------------
   
   
-  -----------------------------Delete Employee Component---------------------------
+  -----------------------------Delete Employee Component--------------------------
+  
+  --------------------------------------------------------------------------------
+  
+  
+  -----------------------------View Employee Component----------------------------
+  
+  1) > ng g c employee-details
+      CREATE src/app/employee-details/employee-details.component.html (31 bytes)
+      CREATE src/app/employee-details/employee-details.component.spec.ts (690 bytes)
+      CREATE src/app/employee-details/employee-details.component.ts (314 bytes)     
+      CREATE src/app/employee-details/employee-details.component.css (0 bytes)      
+      UPDATE src/app/app.module.ts (995 bytes)
+  
+   --------------------------------------------------------------------------------
