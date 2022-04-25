@@ -74,6 +74,7 @@ public class EmployeeController {
 
     //Delete Employee REST API
     @DeleteMapping("/employees/{id}")
+    @CrossOrigin(origins = "http://localhost:4200")
     public ResponseEntity<Map<String, Boolean>> deleteEmployee(@PathVariable Long id){
         Employee employee = employeeRepository.findById(id)
                 .orElseThrow( ()-> new ResourceNotFoundException("Employee does not exist with Id: " + id));
