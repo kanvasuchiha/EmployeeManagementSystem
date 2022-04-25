@@ -49,12 +49,12 @@ Components List for the App - https://drive.google.com/file/d/1yO4SZxCxfx_oakMBs
 4) 'ng g class employee' g - generate,  generates an employee.ts and employee.spec.ts inside "app" folder.
    CREATE src/app/employee.spec.ts (162 bytes)
    CREATE src/app/employee.ts (26 bytes)
-5) >'ng g c employee-list' c - component, generates
-   >CREATE src/app/employee-list/employee-list.component.html (28 bytes)
-   >CREATE src/app/employee-list/employee-list.component.spec.ts (669 bytes)
-   >CREATE src/app/employee-list/employee-list.component.ts (302 bytes)
-   >CREATE src/app/employee-list/employee-list.component.css (0 bytes)
-   >UPDATE src/app/app.module.ts (501 bytes)
+5) 'ng g c employee-list' c - component, generates
+   CREATE src/app/employee-list/employee-list.component.html (28 bytes)
+   CREATE src/app/employee-list/employee-list.component.spec.ts (669 bytes)
+   CREATE src/app/employee-list/employee-list.component.ts (302 bytes)
+   CREATE src/app/employee-list/employee-list.component.css (0 bytes)
+   UPDATE src/app/app.module.ts (501 bytes)
    Now the employee-list component belongs to "app module"
    A component is a TS class with @Component decorator
 6) About Services:
