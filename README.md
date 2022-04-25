@@ -90,3 +90,19 @@ Components List for the App - https://drive.google.com/file/d/1yO4SZxCxfx_oakMBs
   3) We use NgModel directive to achieve two way binding in our angular application, for any errors
      https://stackoverflow.com/questions/38892771/cant-bind-to-ngmodel-since-it-isnt-a-known-property-of-input
   4) Create a method in employee.service.ts that will make the REST API call and save our employee to the MySql database.
+  
+  --------------------------------------------------------------------------------
+  
+  
+  -----------------------------Update Employee REST API---------------------------
+  
+  --------------------------------------------------------------------------------
+  
+  
+  -----------------------------Update Employee Component--------------------------
+  1) > ng g c update-employee
+      CREATE src/app/update-employee/update-employee.component.html (30 bytes)
+      CREATE src/app/update-employee/update-employee.component.spec.ts (683 bytes)
+      CREATE src/app/update-employee/update-employee.component.ts (310 bytes)     
+      CREATE src/app/update-employee/update-employee.component.css (0 bytes)      
+      UPDATE src/app/app.module.ts (875 bytes)
