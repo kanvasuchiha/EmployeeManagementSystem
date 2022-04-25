@@ -1,8 +1,10 @@
 package com.example.SpringBootApp.controller;
 
+import com.example.SpringBootApp.exception.ResourceNotFoundException;
 import com.example.SpringBootApp.model.Employee;
 import com.example.SpringBootApp.repository.EmployeeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -34,11 +36,23 @@ public class EmployeeController {
     }
 
 
-    //create employee rest api
+    // create employee rest api
     @CrossOrigin(origins = "http://localhost:4200")
     @PostMapping("/employees")
     public Employee createEmployee(@RequestBody Employee employee){
         return employeeRepository.save(employee);
+    }
+
+
+    // get employee by id REST API
+    //ResponseEntity for sending HTTP Status
+    @GetMapping("/employees/{id}")
+    public ResponseEntity<Employee> getEmployeeById(@PathVariable Long id){
+        Employee employee = employeeRepository.findById(id)
+                .orElseThrow( ()-> new ResourceNotFoundException("Employee does not exist with Id: " + id));
+        //Sending Ok status always as even if we dont get any employee from a particular Id,
+        // it shouldn't be treated as error.
+        return ResponseEntity.ok(employee) ;
     }
 
 }
