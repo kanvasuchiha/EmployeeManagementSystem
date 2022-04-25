@@ -100,6 +100,7 @@ Components List for the App - https://drive.google.com/file/d/1yO4SZxCxfx_oakMBs
   
   
   <h2>Update Employee Component</h2>
+  
   1) > ng g c update-employee<br />
       CREATE src/app/update-employee/update-employee.component.html (30 bytes)<br />
       CREATE src/app/update-employee/update-employee.component.spec.ts (683 bytes)<br />
@@ -122,7 +123,7 @@ Components List for the App - https://drive.google.com/file/d/1yO4SZxCxfx_oakMBs
   
   <h2>View Employee Component</h2>
   
-  1) > ng g c employee-details
+  1) > ng g c employee-details<br />
       CREATE src/app/employee-details/employee-details.component.html (31 bytes)<br />
       CREATE src/app/employee-details/employee-details.component.spec.ts (690 bytes)<br />
       CREATE src/app/employee-details/employee-details.component.ts (314 bytes)  <br />   
